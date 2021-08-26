@@ -10,14 +10,14 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:codelog.helloWorld"
+		"onCommand:codelog.getSnippet"
 	],
 	"main": "./extension.js",
 	"contributes": {
 		"commands": [
 			{
-				"command": "codelog.helloWorld",
-				"title": "Hello World"
+				"command": "codelog.getSnippet",
+				"title": "Get Snippet"
 			}
 		]
 	},
@@ -36,5 +36,8 @@
 		"mocha": "^8.4.0",
 		"typescript": "^4.3.2",
 		"vscode-test": "^1.5.2"
+	},
+	"dependencies": {
+		"axios": "^0.21.1"
 	}
 }
