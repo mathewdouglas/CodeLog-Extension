@@ -20,6 +20,7 @@
 		"onCommand:codelog.refresh"
 	],
 	"main": "./extension.js",
+	"browser": "./extension.js",
 	"contributes": {
 		"commands": [
 			{
