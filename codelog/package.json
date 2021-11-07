@@ -3,6 +3,12 @@
 	"displayName": "CodeLog",
 	"description": "Access CodeLog Snippets",
 	"version": "0.0.1",
+	"publisher": "MathewDouglas",
+	"icon": "Icon_4_IOS.png",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/mathewdouglas/CodeLog"
+	},
 	"engines": {
 		"vscode": "^1.59.0"
 	},
@@ -10,7 +16,8 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:codelog.getSnippet"
+		"onCommand:codelog.getSnippet",
+		"onCommand:codelog.refresh"
 	],
 	"main": "./extension.js",
 	"contributes": {
@@ -18,6 +25,10 @@
 			{
 				"command": "codelog.getSnippet",
 				"title": "Get Snippet"
+			},
+			{
+				"command": "codelog.refresh",
+				"title": "CodeLog: Refresh Snippets"
 			}
 		]
 	},
