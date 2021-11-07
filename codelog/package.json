@@ -2,7 +2,7 @@
 	"name": "codelog",
 	"displayName": "CodeLog",
 	"description": "Access CodeLog Snippets",
-	"version": "0.0.1",
+	"version": "1.0.1",
 	"publisher": "MathewDouglas",
 	"icon": "Icon_4_IOS.png",
 	"repository": {
